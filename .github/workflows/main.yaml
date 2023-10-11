@@ -10,9 +10,9 @@ on:
           - 'apply'
           - 'destroy'
 env:
-  # BUCKET: test-bucket-00006
-  # TFSTATE_FILE: terraform.tfstate
-  # aws_region: us-east-1
+  BUCKET: test-bucket-00006
+  TFSTATE_FILE: terraform.tfstate
+  aws_region: us-east-1
   # pull_request:
   #   branches:
   #     - main
